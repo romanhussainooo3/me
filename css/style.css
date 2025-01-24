@@ -1,0 +1,608 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Tenor Sans", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 2px solid rgb(17, 131, 93);
+}
+.header .navbar-nav{
+    display: block;
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+}
+.header .nav-item{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.header .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.header .nav-link:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(17, 131, 93);
+    margin: 0px;
+}
+.header .header-left{
+    display: block;
+    text-align: right;
+}
+.header .header-left .fa{
+    font-size: 18px;
+    margin: 0px 11px;
+    color: rgb(17, 131, 93);
+}
+/* header end */
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    
+}
+.banner .iner-banner{
+    padding: 120px 0px 0px 0px;
+    position: relative;
+}
+.banner .iner-banner h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.banner .iner-banner h1{
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.banner .iner-banner p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.banner .iner-banner .btn{
+    padding: 6px 46px;
+    background: white;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.img-banner{
+    position: relative;
+    margin-top: -222px;
+    z-index: 1;
+}
+/* banner end */
+/* readyfor start */
+.readyfor{
+    width: 100%;
+    padding: 80px 0px;
+}
+.readyfor .readyfor-left{
+    text-align: center;
+}
+.readyfor .readyfor-left h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.readyfor .readyfor-left h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.readyfor .readyform-right{
+    text-align: center;
+    padding: 20px 0px 0px;
+}
+.readyfor .readyform-right h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.readyfor .readyform-right p{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.iner-readyfor{
+    text-align: center;
+    padding: 20px 0px;
+}
+.iner-readyfor .img-icon{
+    padding: 0px 40px;
+}
+/* readyfor end */
+/* support start */
+.support{
+    width: 100%;
+    padding: 80px 0px;
+}
+.support .iner-support{
+    padding: 120px 0px;
+}
+.support .iner-support h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.support .iner-support h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.support .iner-support p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.support .iner-support .btn{
+    padding: 6px 46px;
+    background: white;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/* support end */
+/* harvest start */
+.heavest{
+    width: 100%;
+    padding: 80px 0px;
+}
+/* harvest end */
+.harvest .icon-img{
+    width: 80%;
+}
+.harvest  .avater{
+    width: 90%;
+}
+.harvest  .harvest-left{
+    padding: 180px 0px 0px;
+}
+.harvest  .harvest-left h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.harvest  .harvest-left p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.harvest  .harvest-left .btn{
+    padding: 6px 46px;
+    background: white;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 3px solid rgb(17, 131, 93);
+}
+/* products start */
+.products{
+    width: 100%;
+    padding: 0px;
+}
+.products .products-left{
+    width: 100%;
+    padding: 180px 0px 0px;
+}
+.products .products-left h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.products .products-left p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.products .products-left .btn{
+    padding: 6px 46px;
+    background: white;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 3px solid rgb(17, 131, 93);
+    margin: 20px 0px 0px;
+}
+.products .avater{
+    width: 90%;
+}
+/* products end */
+/* testimonials start */
+.testimonials{
+    width: 100%;
+    padding: 80px 0px;
+    background: rgb(45, 143, 97);
+}
+.testimonials .iner-testimonials{
+    text-align: center;
+}
+.testimonials .iner-testimonials h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Tenor Sans", serif;
+}
+.testimonials .iner-testimonials h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Tenor Sans", serif;
+}
+.testimonials  .testimonials-left{
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.testimonials  .testimonials-left h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Tenor Sans", serif;
+    margin: 10px 0px 0px ;
+}
+.testimonials  .testimonials-left p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+}
+/* testimonials end */
+/* feauter start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .iner-feature{
+    text-align: center;
+}
+.feature .iner-feature h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+}
+.feature .feature-left{
+    width: 100%;
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+}
+.feature .feature-left h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+    margin: 10px 0px 0px ;
+}
+.feature .feature-left p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.feature .feature-right{
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+.feature .feature-right h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(17, 131, 93);
+    font-family: "Tenor Sans", serif;
+    margin: 10px 0px 0px ;
+}
+.feature .feature-right p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.feature .feature-button{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+.feature .feature-button .btn{
+    padding: 6px 46px;
+    background: rgb(17, 131, 93);
+    letter-spacing: 1px;
+    color: rgb(217, 227, 223);
+    font-family: "Tenor Sans", serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 3px solid rgb(17, 131, 93);
+    margin: 20px 0px 0px 0px;
+}
+/* feauter end */
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: rgb(45, 143, 97);
+}
+.footer .iner-footer h1{
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #f6e9e9;
+    font-family: "Tenor Sans", serif;
+}
+.footer .iner-footer .fa{
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.footer .iner-footer h4{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f6e9e9;
+    font-family: "Tenor Sans", serif;
+    margin: 10px 0px 0px ;
+}
+.footer .iner-footer p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #f6e9e9;
+}
+.footer .footer-left{
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    color: #f6e9e9;
+}
+/* footer end */
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .header .navbar-nav {
+        display: block;
+        text-align: left;
+    }
+    .header .nav-item {
+        margin: 0px 10px 0px 0px;
+    }
+    .header .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .header .header-left {
+        text-align: left;
+    }
+    .header .header-left .fa {
+        margin: 0px 10px 0px 0px;
+    }
+    .banner {
+        padding: 40px 0px 0px 0px;
+    }
+    .banner .iner-banner {
+        padding: 40px 0px 0px 0px;
+    }
+    .banner .iner-banner h4 {
+        font-size: 20px;
+    }
+    .banner .iner-banner h1 {
+        font-size: 35px;
+    }
+    .banner .iner-banner p {
+        font-size: 15px;
+    }
+    .banner .iner-banner .btn {
+        font-size: 16px;
+    }
+    .iner-readyfor {
+        padding: 0px;
+    }
+    .readyfor {
+        padding: 40px 0px 0px 0px;
+    }
+    .readyfor .readyfor-left h4 {
+        font-size: 22px;
+    }
+    .readyfor .readyfor-left h1 {
+        font-size: 35px;
+    }
+    .readyfor .readyform-right h5 {
+        font-size: 16px;
+    }
+    .readyfor .readyform-right p {
+        font-size: 15px;
+    }
+    .support {
+        padding: 40px 0px 0px 0px;
+    }
+    .support .iner-support {
+        padding: 0px 0px;
+    }
+    .support .iner-support h4 {
+        font-size: 18px;
+    }
+    .support .iner-support h1 {
+        font-size: 35px;
+    }
+    .support .iner-support h1 {
+        font-size: 35px;
+    }
+    .support .iner-support p {
+        font-size: 14px;
+    }
+    .support .iner-support .btn {
+        font-size: 16px;
+        margin: 0px 0px 20px 0px;
+    }
+    .harvest{
+        width: 100%;
+        padding: 40px 0px 0px 0px;
+    }
+    .harvest .harvest-left {
+        padding: 40px 0px 0px;
+    }
+    .harvest .harvest-left h1 {
+        font-size: 35px;
+    }
+    .harvest .harvest-left p {
+        font-size: 14px;
+    }
+    .harvest .harvest-left .btn {
+        font-size: 16px;
+    }
+    .products .products-left {
+        padding: 40px 0px 0px;
+    }
+    .products .products-left h1 {
+        font-size: 35px;
+    }
+    .products .products-left p {
+        font-size: 15px;
+    }
+    .products .products-left .btn {
+        font-size: 16px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonials .iner-testimonials h1 {
+        font-size: 35px;
+    }
+    .testimonials .iner-testimonials h4 {
+        font-size: 16px;
+    }
+    .testimonials .testimonials-left h4 {
+        font-size: 18px;
+    }
+    .testimonials .testimonials-left p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .feature {
+        padding: 40px 0px;
+    }
+    .feature .iner-feature h1 {
+        font-size: 35px;
+    }
+    .feature .feature-left {
+        padding: 30px 0px 0px 0px;
+    }
+    .feature .feature-left h4 {
+        font-size: 18px;
+    }
+    .feature .feature-left p {
+        font-size: 14px;
+    }
+    .feature .feature-right h4 {
+        font-size: 18px;
+    }
+    .feature .feature-right p {
+        font-size: 14px;
+    }
+    .feature .feature-button {
+        padding: 0px;
+    }
+    .footer {
+       padding: 30px 0px 0px 0px;
+    }
+    .footer .iner-footer h1 {
+        font-size: 45px;
+    }
+    .footer .iner-footer h4 {
+        font-size: 18px;
+    }
+    .footer .iner-footer p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .footer .footer-left {
+       font-size: 16px;
+    }
+}
